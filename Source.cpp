@@ -13,6 +13,11 @@ int hieu(int a, int b);
 int tich(int a, int b){
 	return a*b;
 }
+void betapdem(){
+	for(int i = 0 ; i < 10 ; i++ ) {
+		cout<< i+1 << '\t';
+	}
+}
 float thuong(int a, int b);
 int main()
 {	
@@ -22,6 +27,7 @@ int main()
 	cout<<"Hieu =" << hieu(3,2);
 	cout<<"Tich = " << tich(2*3);
 	cout<<"Tong = "tong(2,3);
+	betapdem();
 	system("pause");
 	return 0;
 }
