@@ -18,6 +18,9 @@ void betapdem(){
 		cout<< i+1 << '\t';
 	}
 }
+void betapdi() {
+	cout << "Dang di...";
+}
 float thuong(int a, int b);
 int main()
 {	
@@ -28,6 +31,7 @@ int main()
 	cout<<"Tich = " << tich(2*3);
 	cout<<"Tong = "tong(2,3);
 	betapdem();
+	betapdi();
 	system("pause");
 	return 0;
 }
