@@ -21,6 +21,9 @@ void betapdem(){
 		cout<< i+1 << '\t';
 	}
 }
+void betapdi() {
+	cout << "Dang di...";
+}
 float thuong(int a, int b);
 
 
@@ -63,6 +66,7 @@ int main()
 	else
 		cout << "Khong phai so nguyen to";
 	betapdem();
+	betapdi();
 	system("pause");
 	return 0;
 }
